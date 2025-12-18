@@ -28,8 +28,8 @@ jobs:
           pip install pytest
 
       - name: Run Tests
- 	run: pytest tests/ -v
+ 	      run: pytest tests/ -v
 
       - name: Deploy
- 	if: github.ref == 'refs/heads/main'
-   	run: echo "Deploying to pro
+ 	      if: github.ref == 'refs/heads/main'
+   	    run: echo "Deploying to pro
